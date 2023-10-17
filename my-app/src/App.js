@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Increment from './components/increment.js';
+import NavBarSimple from './components/NavBarSimple.js';
 
 function App() {
   return (
     <div className="App">
-      <Increment />
+      <NavBarSimple />
     </div>
   );
 }
