@@ -1,16 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import NavBarSimple from './components/NavBarSimple.js';
-import EventsClass from './components/EventsClass';
-import EventsFunctional from './components/EventsFunctional';
-import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+import "./App.css";
+import NestingComponents from "./components/NestingComponents";
 
 function App() {
-  return (
-    <div className="App">
-        <ConditionalRenderingFunctional connected={true}/>
-    </div>
-  );
+  return <div className="App">
+      <NestingComponents />
+  </div>;
 }
 
 export default App;
